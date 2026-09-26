@@ -39,7 +39,7 @@ npx -y http-server C:/Users/gilau/Documents/hd-event -p 8178 -c-1
 
 ## 오픈할 때 바꿀 것
 
-1. `index.html` · `portfolio.html` 의 `<meta name="robots" content="noindex,nofollow">` 지우기 (도메인 연결 전까지 검색 차단).
+1. ~~noindex 지우기~~ — 2026-09-26 검색 공개 (github.io 주소로 canonical · sitemap · robots 설정). 도메인을 연결하면 canonical · og · sitemap 주소를 새 도메인으로 바꿀 것.
 2. `assets/app.js` 맨 위 `FORM_ENDPOINT` 에 문의 접수 서버(Apps Script) 주소 넣기.
    비어 있으면 폰에서는 문자 앱(010-3401-0118)이 열리고, PC 에서는 내용을 복사해 준 뒤 전화를 안내한다.
 3. `og:image` 를 실제 주소(https://도메인/assets/img/hero_poster.webp)로.
