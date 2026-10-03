@@ -44,3 +44,23 @@ npx -y http-server C:/Users/gilau/Documents/hd-event -p 8178 -c-1
    비어 있으면 폰에서는 문자 앱(010-3401-0118)이 열리고, PC 에서는 내용을 복사해 준 뒤 전화를 안내한다.
 3. `og:image` 를 실제 주소(https://도메인/assets/img/hero_poster.webp)로.
 4. 도메인 연결 뒤 사이트맵 · 네이버 서치어드바이저 · 구글 서치콘솔 등록.
+
+## 업무 도구 (2026-10-03, 바로기획 기준본을 옮김 — `tools/port_docs.py` · `tools/make_pages.py`)
+
+| 기능 | 주소 | 서버 |
+|---|---|---|
+| 자동 견적서(손님용) | `quote.html` | 문의 서버(공용) |
+| 견적서 발행 · 저장함(관리자) | `quote.html?admin=1` | 저장함 폰 · PC 같이 보기는 계약 서버 |
+| 전자계약서 | `contract.html?admin=1` | 계약 서버(`apps-script/contract`) — 배포 전 |
+| 거래명세서 | `statement.html?admin=1` | 없음 |
+| 행사 일정 · 체크리스트 | `schedule.html` | 계약 서버 |
+| 사진 올리기 + 블로그 · 인스타 글 | `upload.html` | 갤러리 서버(`apps-script/gallery`) → `photos` 가지 → 포트폴리오 페이지 — 배포 전 |
+| 대표 전용 업무 문서함 | `office.html` (공개 링크 없음) | — |
+| 행사 이야기 · 지역 페이지 | `stories/` · `areas/` | 없음 — `python tools/make_pages.py` |
+| 문의 알림 | 대문 견적 문의 폼 · 견적서 | 문의 서버(공용) → 대표 메일 + 큰길브리지 |
+| 유입 현황 · AI 검색 | `stats.js`(data-site="hd") · `llms.txt` · `sitemap.xml` · `robots.txt` | 큰길브리지 유입 서버 |
+
+- 서류 화면은 큰길이벤트 원본에서 `python tools/port_docs.py` 로 옮긴다. 결과 HTML 을 손으로 고치지 말고 스크립트의 「회사 설정」을 고친 뒤 다시 돌릴 것.
+- 서버 2개를 배포하면 `port_docs.py` 의 `CONTRACT_URL` · `GALLERY_URL` 에 주소를 넣고 다시 돌린다. 사업자등록번호를 받으면 `BIZNO` 도.
+- 직인: `assets/img/stamp-hd.png`(투명 PNG)가 생기면 계약서 · 명세서에 찍힌다. 없으면 「(인)」 자리만.
+- 행사 이야기 5편은 포트폴리오 목록(제목 · 분야 · 연도)만 근거로 썼다. 포트폴리오가 HD기획 사진 · 실적으로 바뀌면 `make_pages.py` 의 `STORIES` 도 같이 바꿀 것.
