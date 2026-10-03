@@ -1,0 +1,36 @@
+{
+ "updated": "",
+ "categories": [
+  {
+   "slug": "corp",
+   "name": "기업행사 · 송년회",
+   "desc": "",
+   "count": 0
+  },
+  {
+   "slug": "sport",
+   "name": "체육대회 · 워크숍",
+   "desc": "",
+   "count": 0
+  },
+  {
+   "slug": "gov",
+   "name": "지자체 · 관공서 · 학교",
+   "desc": "",
+   "count": 0
+  },
+  {
+   "slug": "fest",
+   "name": "축제 · 놀이존 · 물놀이",
+   "desc": "",
+   "count": 0
+  },
+  {
+   "slug": "cer",
+   "name": "기공식 · 의전 · 개관식",
+   "desc": "",
+   "count": 0
+  }
+ ],
+ "photos": []
+}
