@@ -31,8 +31,8 @@ CODE_PRE = 'HD-'                                    # 계약 번호 앞글자
 BLOG     = ''                                       # 블로그 없음
 
 # 서버(앱스 스크립트) — 배포하면 주소를 넣고 다시 돌린다. 비어 있으면 서버 없이 동작(저장함은 이 기기만, 계약은 긴 링크).
-CONTRACT_URL = ''   # 아직 배포 전 — 형님 구글 계정으로 apps-script/contract 배포 후 넣기
-GALLERY_URL  = ''   # 아직 배포 전 — apps-script/gallery 배포 후 넣기(비밀번호는 서버 속성에만)
+CONTRACT_URL = 'https://script.google.com/macros/s/AKfycbztMKCIMH6nJmTXdqq4cuDvLi4diPSGuJRag6uAeukUf8wJGyMAkqFX3T4ZbHihIRWVcg/exec'   # 2026-10-03 어대리 배포 (gilauto325)
+GALLERY_URL  = 'https://script.google.com/macros/s/AKfycbwL8NthOvri0RIuY0IBRtXUeU_Hk36e76Ie6dXchYdaPDjn-x1eiPho1-7xqLTVrhtA/exec'   # 비밀번호는 서버 속성에만
 
 LOGO_FILE = 'assets/img/favicon.svg'                # 머리글에 쓰는 네모 마크
 MAIL_LOGO = 'https://brizymedia.github.io/hd-event/assets/img/logo-h-white.png'   # 메일 머리(어두운 바탕용 가로 로고, PNG)
