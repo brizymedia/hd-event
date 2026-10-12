@@ -26,7 +26,7 @@ ADDR_S   = '서울시 금천구 시흥대로26길 69-24'
 TEL      = '010-3401-0118'
 EMAIL    = '16zone@hanmail.net'
 REPO     = 'brizymedia/hd-event'
-HOME     = 'https://brizymedia.github.io/hd-event'
+HOME     = 'https://www.hdplan.co.kr'
 CODE_PRE = 'HD-'                                    # 계약 번호 앞글자
 BLOG     = ''                                       # 블로그 없음
 
@@ -35,7 +35,7 @@ CONTRACT_URL = 'https://script.google.com/macros/s/AKfycbztMKCIMH6nJmTXdqq4cuDvL
 GALLERY_URL  = 'https://script.google.com/macros/s/AKfycbwL8NthOvri0RIuY0IBRtXUeU_Hk36e76Ie6dXchYdaPDjn-x1eiPho1-7xqLTVrhtA/exec'   # 비밀번호는 서버 속성에만
 
 LOGO_FILE = 'assets/img/favicon.svg'                # 머리글에 쓰는 네모 마크
-MAIL_LOGO = 'https://brizymedia.github.io/hd-event/assets/img/logo-h-white.png'   # 메일 머리(어두운 바탕용 가로 로고, PNG)
+MAIL_LOGO = 'https://www.hdplan.co.kr/assets/img/logo-h-white.png'   # 메일 머리(어두운 바탕용 가로 로고, PNG)
 STAMP     = 'assets/img/stamp-hd.png'               # 대표 인감(투명 PNG). 파일이 없으면 「(인)」 자리만
 
 # 색: 큰길이벤트 주황 → 이 회사 색 (앞 = 큰길 원래 색, 뒤 = 이 회사 색: 포인트 #F0472B · 바탕 #0B0E15)

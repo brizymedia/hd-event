@@ -8,4 +8,4 @@ Disallow: /upload.html
 Disallow: /schedule.html
 Disallow: /office.html
 
-Sitemap: https://brizymedia.github.io/hd-event/sitemap.xml
+Sitemap: https://www.hdplan.co.kr/sitemap.xml

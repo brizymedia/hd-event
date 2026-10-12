@@ -10,8 +10,8 @@
 - 장비만 따로 빌리는 것(음향 · 조명 · 무대 · LED)도 가능하다.
 
 ## 주요 페이지
-- [대문 · 회사소개 · 사업분야 · 견적 문의](https://brizymedia.github.io/hd-event/)
-- [포트폴리오](https://brizymedia.github.io/hd-event/portfolio.html): 현장 사진
-- [행사 이야기](https://brizymedia.github.io/hd-event/stories/index.html): 행사별 정리
-- [운영 지역](https://brizymedia.github.io/hd-event/areas/index.html): 지역별 이동 시간
-- [자동 견적서](https://brizymedia.github.io/hd-event/quote.html): 항목을 골라 견적 문의
+- [대문 · 회사소개 · 사업분야 · 견적 문의](https://www.hdplan.co.kr/)
+- [포트폴리오](https://www.hdplan.co.kr/portfolio.html): 현장 사진
+- [행사 이야기](https://www.hdplan.co.kr/stories/index.html): 행사별 정리
+- [운영 지역](https://www.hdplan.co.kr/areas/index.html): 지역별 이동 시간
+- [자동 견적서](https://www.hdplan.co.kr/quote.html): 항목을 골라 견적 문의

@@ -12,7 +12,7 @@
 import os, re, html, datetime
 
 SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE = 'https://brizymedia.github.io/hd-event/'
+BASE = 'https://www.hdplan.co.kr/'
 TEL = '010-3401-0118'
 E = html.escape
 
