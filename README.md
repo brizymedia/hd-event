@@ -64,3 +64,11 @@ npx -y http-server C:/Users/gilau/Documents/hd-event -p 8178 -c-1
 - 서버 2개를 배포하면 `port_docs.py` 의 `CONTRACT_URL` · `GALLERY_URL` 에 주소를 넣고 다시 돌린다. 사업자등록번호를 받으면 `BIZNO` 도.
 - 직인: `assets/img/stamp-hd.png`(투명 PNG)가 생기면 계약서 · 명세서에 찍힌다. 없으면 「(인)」 자리만.
 - 행사 이야기 5편은 포트폴리오 목록(제목 · 분야 · 연도)만 근거로 썼다. 포트폴리오가 HD기획 사진 · 실적으로 바뀌면 `make_pages.py` 의 `STORIES` 도 같이 바꿀 것.
+
+## 블로그 (2026-10-13, 큰길이벤트 _blog 루틴을 옮김)
+
+- 원본 `_blog/posts/<날짜>-<slug>.json` → `node scripts/build-blog.mjs` → `/blog/`(목록 · 지역 모음 · 글) + `rss.xml` + sitemap.xml · llms.txt 의 블로그 부분. 결과 HTML 은 손으로 고치지 말 것.
+- 규칙은 `_blog/GUIDE.md`. 지역 자료 `_blog/regions.json`(금천 · 구로 · 광명 · 관악 · 영등포 · 마포 · 강남 · 송파 · 남양주), 주제 `_blog/keywords.json`, 사진 `_blog/photos.json`(works/ · biz/ 는 워터마크라 제외), 공식 출처 `_blog/sources.json`.
+- 쓰기 전 `node scripts/blog-plan.mjs` 로 다음 지역 · 주제를 받고, 쓴 뒤 `node scripts/blog-check.mjs --new <파일>` 이 통과해야 올린다(가격 · 후기 · 인원 수 · 연혁 · 경쟁사 이름 · 지어낸 지역 이야기 · 워터마크 사진을 막는다).
+- 글에 쓴 회사 사실은 GUIDE 4장 목록뿐. 현장기록은 영등포 「국회 개방행사 놀이존 운영(2024)」 하나.
+- 검색 알림: 푸시 뒤 IndexNow(`<키>.txt` 파일이 루트에 있음)로 새 주소를 알린다. 네이버 서치어드바이저 · 구글 서치콘솔 등록은 소유 확인 태그를 받으면.

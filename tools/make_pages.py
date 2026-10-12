@@ -59,7 +59,7 @@ STORIES = [
 AREAS = [
     dict(slug='geumcheon', name='금천', office='구청', min=0, km=0, hq=True, done=[], photos=['sys/h1_7', 'sys/h2_1', 'sys/h1_3']),
     dict(slug='guro', name='구로', office='구청', min=10, km=8.7, done=[], photos=['sys/h1_4', 'sys/h2_3', 'sys/h1_6']),
-    dict(slug='gwangmyeong', name='광명', office='시청', min=10, km=7.4, done=[], photos=['slider1', 'sys/h2_5', 'sys/h1_1']),
+    dict(slug='gwangmyeong', name='광명', office='시청', min=10, km=7.4, done=[], photos=['slider1', 'sys/h2_5', 'sys/h2_1']),
     dict(slug='gwanak', name='관악', office='구청', min=10, km=8.9, done=[], photos=['slider3', 'sys/h1_2', 'sys/h2_4']),
     dict(slug='yeongdeungpo', name='영등포', office='구청', min=15, km=10.8, done=['국회 개방행사 놀이존 운영 (2024)'], photos=['works/w13', 'sys/h3_1', 'sys/h2_2']),
     dict(slug='mapo', name='마포', office='구청', min=15, km=16.9, done=[], photos=['sys/h3_2', 'sys/h1_5', 'sys/h2_1']),
